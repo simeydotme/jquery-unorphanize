@@ -1,6 +1,6 @@
 jQuery Unorphanize
 --------------------
-A small jQuery method for preventing orphans in text.  
+A small jQuery method for preventing orphans in text (unhindered by HTML).  
 `~ 500 bytes minified`  
 
 ###How it works
@@ -18,8 +18,11 @@ If you wish the last line to have more than 2 words, you can supply an argument 
 $(".selector").unorphanize(2);
 ```
 
---------------------
-###example
+###Why it's better than "Plugin X"
+Unorphanize will recognize if you have HTML elements, and not ruin them.
+
+
+###Example
 
     A Line of text which wraps and leaves an
     orphan.
