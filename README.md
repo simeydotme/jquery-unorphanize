@@ -19,7 +19,8 @@ $(".selector").unorphanize(2);
 ```
 
 ###Why it's better than "Plugin X"
-Unorphanize will recognize if you have HTML elements, and not ruin them.
+Unorphanize will recognize if you have HTML elements, and not ruin them.  
+you should, however, run it before you bind events to inner dom elements, or you may lose those events.
 
 
 ###Example
