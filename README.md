@@ -19,8 +19,11 @@ $(".selector").unorphanize(2);
 ```
 
 ###Why it's better than "Plugin X"
-Unorphanize will recognize if you have HTML elements, and not ruin them.  
-you should, however, run it before you bind events to inner dom elements, or you may lose those events.
+Unorphanize will recognize if you have HTML elements, and not ruin them: Most other plugins will do it a bit faster, 
+__*but*__ they will ignore HTML tags and put the space before/after them, or they will just not work. 
+They may also put the __*space inside of a html*__ entity like: `<a&nbsp;href="#">blah</a>` which as you can imagine is useless.  
+You should, however, _run it before you bind events_ to inner dom elements, or you may lose those events. Or you can 
+[delegate events from the parent](http://api.jquery.com/on/#direct-and-delegated-events) element.
 
 
 ###Example
