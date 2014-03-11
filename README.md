@@ -1,6 +1,6 @@
 jQuery Unorphanize
 --------------------
-A small jQuery method for preventing orphans in text (unhindered by HTML).  
+A small jQuery method for preventing or stopping orphans (widows) in text, paragraphs or whatever (unhindered by HTML).  
 `~ 500 bytes minified`  
 
 ###How it works
