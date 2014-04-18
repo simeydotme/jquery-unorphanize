@@ -1,7 +1,23 @@
 {
     "name": "jquery-unorphanize",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "unorphanize.jquery.js",
+    "description": "Prevent orphans in text with jQuery",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/simeydotme/jquery-unorphanize.git"
+    },
+    "license": "MIT",
+    "keywords": [
+        "jquery",
+        "orphan",
+        "widow",
+        "javascript",
+        "remove"
+    ],
+    "authors": [
+        "Simon Goellner <simey.me@gmail.com>"
+    ],
     "ignore": [
         ".gitattributes",
         ".gitignore",
