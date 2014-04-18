@@ -1,21 +1,21 @@
 {
-  "name": "unorphanize",
-  "version": "0.9.3",
-  "description": "Prevent orphans in text with jQuery",
-  "main": "unorphanize.jquery.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "jquery",
-    "orphan",
-    "widow",
-    "javascript"
-  ],
-  "author": "Simon Goellner",
-  "license": "BSD",
-  "devDependencies": {
-    "grunt-contrib-uglify": "~0.2.4",
-    "grunt-contrib-jshint": "~0.6.4"
-  }
+    "name": "jquery-unorphanize",
+    "version": "1.0.0",
+    "main": "unorphanize.jquery.js",
+    "description": "Prevent orphans in text with jQuery",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "jquery",
+        "orphan",
+        "widow",
+        "javascript"
+    ],
+    "author": "Simon Goellner",
+    "license": "MIT",
+    "devDependencies": {
+        "grunt-contrib-uglify": "~0.2.4",
+        "grunt-contrib-jshint": "~0.6.4"
+    }
 }

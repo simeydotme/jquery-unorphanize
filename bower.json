@@ -1,0 +1,20 @@
+{
+    "name": "jquery-unorphanize",
+    "version": "1.0.0",
+    "main": "unorphanize.jquery.js",
+    "ignore": [
+        ".gitattributes",
+        ".gitignore",
+        "Gruntfile.js",
+        "*.json",
+        "*.md",
+        "*.txt",
+        "*.html",
+        "mode_modules"
+    ],
+    "dependencies": {
+        "jquery": ">=1.10.2"
+    },
+    "devDependencies": {
+    }
+}
