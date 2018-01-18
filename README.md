@@ -3,7 +3,7 @@ jQuery Unorphanize
 A small jQuery method for preventing or stopping orphans (widows) in text, paragraphs or whatever (unhindered by HTML).  
 `~ 500 bytes minified`  
 
-###How it works
+### How it works
 ```js 
 $(".selector").unorphanize();
 ```
@@ -18,7 +18,7 @@ If you wish the last line to have more than 2 words, you can supply an argument 
 $(".selector").unorphanize(2);
 ```
 
-###Why it's better than "Plugin X"
+### Why it's better than "Plugin X"
 Unorphanize will recognize if you have HTML elements, and not ruin them: Most other plugins will do it a bit faster, 
 __*but*__ they will ignore HTML tags and put the space before/after them, or they will just not work. 
 They may also put the __*space inside of a html*__ entity like: `<a&nbsp;href="#">blah</a>` which as you can imagine is useless.  
@@ -26,7 +26,7 @@ You should, however, _run it before you bind events_ to inner dom elements, or y
 [delegate events from the parent](http://api.jquery.com/on/#direct-and-delegated-events) element.
 
 
-###Example
+### Example
 
     A Line of text which wraps and leaves an
     orphan.
